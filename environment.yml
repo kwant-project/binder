@@ -1,0 +1,15 @@
+name: kwant-latest
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6
+    - pip
+    - kwant
+    # required dependencies
+    - numpy
+    - scipy
+    # optional dependencies
+    - matplotlib
+    - sympy
+    - pip:
+        - qsymm
